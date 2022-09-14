@@ -1,0 +1,27 @@
+{
+	"name": "@react-package/sample",
+	"version": "0.1.0",
+	"source": "src/index.ts",
+	"main": "dist/index.js",
+	"module": "dist/index.es.js",
+	"typings": "dist/index.d.ts",
+	"description": "Sample package for the template",
+	"contributors": [
+		"Daveren Cordero <daverencordero@gmail.com> (https://coreapostrophe.myportfolio.com/)"
+	],
+	"files": [
+		"dist"
+	],
+	"scripts": {
+		"build": "rollup -c --exports auto",
+		"build-watch": "rollup -c -w --exports auto"
+	},
+	"license": "ISC",
+	"peerDependencies": {
+		"react": "^18.1.0",
+		"react-dom": "^18.1.0"
+	},
+	"dependencies": {
+		"@emotion/react": "^11.10.0"
+	}
+}

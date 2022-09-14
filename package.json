@@ -1,0 +1,39 @@
+{
+  "name": "@react-package/workspace",
+  "version": "1.0.0",
+  "private": "true",
+  "description": "A template for react package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daverencordero/react-package.git"
+  },
+  "author": "Daveren Cordero <daverencordero@gmail.com> (https://coreapostrophe.myportfolio.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daverencordero/react-package/issues"
+  },
+  "workspaces": [
+    "playground",
+    "playground/src/packages",
+    "playground/src/packages/**/*"
+  ],
+  "homepage": "https://github.com/daverencordero/react-package#readme",
+  "devDependencies": {
+    "@emotion/eslint-plugin": "^11.10.0",
+    "@typescript-eslint/eslint-plugin": "^5.25.0",
+    "@typescript-eslint/parser": "^5.25.0",
+    "eslint": "^8.16.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-react": "^7.30.0",
+    "eslint-plugin-react-hooks": "^4.5.0",
+    "prettier": "^2.6.2"
+  },
+  "volta": {
+    "node": "16.17.0"
+  }
+}
